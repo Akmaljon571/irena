@@ -1,4 +1,4 @@
-import { Fix, Mission, News } from '../../components'
+import { Fix, Mission, News, Newsletter } from '../../components'
 import './main.scss'
 
 function Main() {
@@ -7,6 +7,7 @@ function Main() {
             <Fix />
             <Mission />
             <News />
+            <Newsletter />
         </main>
     )
 }
