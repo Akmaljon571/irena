@@ -1,0 +1,129 @@
+.mission {
+    width: 100%;
+    min-height: 122px;
+    background-color: #f3f3f3;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+    display: block;
+    transition: all 20s !important;
+
+    &-top {
+        padding-top: 28px;
+
+        button {
+            background-color: transparent;
+            margin: 0 auto;
+            display: flex;
+            border: none;
+            color: #007db1;
+            font-family: Graphik,sans-serif;
+            font-weight: 900;
+            font-style: normal;
+            align-items: center;
+            cursor: pointer;
+
+            .icon {
+                transition: all 0.2s;
+            }
+            .icon-active {
+                transform: rotate(180deg);
+            }
+
+            
+            span {
+                border-bottom: 2px solid #007db1;
+            }
+        }
+    }
+
+    &-bottom {
+        box-shadow: 0.4rem 0.4rem 0 0 rgba(0,0,0,.1);
+        width: 274px;
+        height: 108px;
+        background-color: #00203e;
+        text-align: center;
+        color: #fff;
+        position: absolute;
+        bottom: -50px;
+        left: 622px;
+
+        h1 {
+            font-weight: 900;
+            font-style: normal;
+            font-size: 3rem;
+            font-family: sans-serif;
+            line-height: 1;
+            margin: 0;
+            margin-top: 4px;
+            padding-top: 6px;
+        }
+
+        p {
+            font-size: 15px;
+            color: #e1e1e1;
+            letter-spacing: .2rem;
+            margin-top: 5px;
+        }
+
+        span {
+            font-size: 8px;
+            color: #aaa;
+            font-weight: 700;
+            letter-spacing: .3rem;
+        }
+    }
+}
+
+.mission-top-active {
+    height: 304px !important;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    background-image: url('../../img/map2x.png');
+    position: relative;
+
+    .span {
+        position: absolute;
+        left: 725px;
+        color: #636363;
+        font-weight: 400;
+    }
+
+    p {
+        font-size: 33px;
+        text-align: center;
+        font-family: sans-serif;
+        width: 900px;
+        margin: 0 auto;
+        margin-top: 30px;
+        letter-spacing: 2px;
+        width: 300;
+        color: #323232dc;
+
+        span {
+            color: #000;
+            font-weight: 800;
+        }
+    }
+
+    a {
+        position: absolute;
+        left: 700px;
+        border: none;
+        color: #007db1;
+        font-family: Graphik,sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        cursor: pointer;
+        bottom: 82px;
+        font-size: 18px;
+        padding-bottom: -1px;
+        border-bottom: 2px solid #007db1;
+
+        &:hover {
+            border-bottom: 2px solid transparent;
+        }
+    }
+}
