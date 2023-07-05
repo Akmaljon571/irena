@@ -4,16 +4,15 @@
     margin-bottom: 0;
     background-color: #00203e;
     height: 526px;
-    margin-bottom: 500px;
     
     &-fath {
-        display: flex;
+        display: flex !important;
         align-items: center;
         justify-content: space-between;
         gap: 30px;
 
         &_left {
-            width: 874px;
+            width: 864px;
         }
     }
 
@@ -74,7 +73,7 @@
             height: 35px;
             border: none;
             position: absolute;
-            right: -10px;
+            right: 10px;
             top: 70px;
             border: 1px solid #aaa;
             z-index: 1;
@@ -90,7 +89,7 @@
         }
         
         &-btn {
-            right: 30px !important;
+            right: 55px !important;
             transform: rotate(0deg) !important;
         }
     }
@@ -106,4 +105,26 @@
         top: 120px;
         position: absolute;
     }
+}
+
+.carousel-arrow {
+    position: absolute !important;
+    display: inline;
+    top: 72px;
+    right: 10px;
+    width: 35px;
+    height: 35px !important;
+
+    &::before { 
+        display: none;
+    }
+}
+
+.carousel-prev {
+    position: absolute !important;
+    display: inline;
+    top: 72px;
+    left:1235px;
+    width: 35px;
+    height: 35px !important;
 }
