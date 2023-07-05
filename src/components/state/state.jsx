@@ -80,7 +80,7 @@ function State({ children }) {
             <div className='state-rigth2'>
                 <div className='state-rigth2-father'>
                     <div className='state-rigth2-img1'>
-                        <img width={316} src={img5} alt="rasm" />
+                        <img width={316} height={369} src={img5} alt="rasm" />
                         <Link className='state-rigth2-img1-link' to={'/'}>
                             Renewable Pathway More Cost-effective than Fossil Fuels in Indonesia
                         </Link>
@@ -106,9 +106,22 @@ function State({ children }) {
                         </Link>
                     </div>
                 </div>
-                <ul className="state-rigt2-list">
-                    <li className='state-rigt2-list'>
-                        
+                <ul className="state-rigth2-list">
+                    <li className='state-rigth2-list-active'>
+                        <h3>Latest news</h3>
+                        <Link to={'/'}>Browse all</Link>
+                    </li>
+                    <li>
+                        <span>22 June</span>
+                        <h4>Annual Renewable Power Must Triple by 2030</h4>
+                    </li>
+                    <li>
+                        <span>20 June</span>
+                        <h4>Powering the Energy Transition with Smart Electrification</h4>
+                    </li>
+                    <li>
+                        <span>22 June</span>
+                        <h4>How to Decarbonise End-Use Sectors with Renewable Power?​</h4>
                     </li>
                 </ul>
             </div>}

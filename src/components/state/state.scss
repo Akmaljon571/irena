@@ -181,6 +181,7 @@
     &-rigth2 {
         display: flex;
         align-items: stretch;
+        flex-direction: column;
         gap: 20px;   
         
         &-father {
@@ -191,6 +192,7 @@
 
         &-img1 {
             width: 316px;
+            height: 369px;
             position: relative;
 
             &-link {
@@ -231,7 +233,7 @@
 
         &-img2 {
             width: 316px;
-            height: 400px;
+            height: 369px;
             background: linear-gradient(201deg, #1670ab 0%, #15a9b8 100%) 0% 0%;
             text-align: center;
             color: #fff;
@@ -261,6 +263,51 @@
                 font-weight: 800;
                 font-size: 17px;
                 text-decoration: underline;
+            }
+        }
+
+        &-list {
+            display: flex;
+            align-items: stretch;
+            flex-direction: column;
+            margin-top: 8px;
+
+            li {
+                border-bottom: 1px solid #aaa;   
+                padding: 24px 0;
+
+                span {
+                    color: #aaa;
+                    font-size: 15px;
+                }
+
+                h4 {
+                    font-size: 19.5px;
+                    font-weight: 800;
+                }
+            }
+
+            &-active {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-top: 0 !important;
+
+                h3 {
+                    font-size: 25px;
+                    font-weight: 800;
+                }
+
+                a {
+                    font-size: 18px;
+                    font-weight: 800;
+                    color: #15a9b8;
+                    text-decoration: underline;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
             }
         }
     }
