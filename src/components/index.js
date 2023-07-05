@@ -6,6 +6,7 @@ import Hero from "./hero/hero";
 import Mission from "./mission/mission";
 import News from "./news/news";
 import Newsletter from "./newsletter/newsletter";
+import Books from "./books/books";
 
 export  {
     Alert,
@@ -16,4 +17,5 @@ export  {
     Mission,
     News,
     Newsletter,
+    Books
 }

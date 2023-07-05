@@ -1,5 +1,4 @@
 .newsletter {
-    margin-bottom: 500px;
     cursor: pointer;
     width: 100%;
 
@@ -9,7 +8,7 @@
         position: absolute;
         z-index: -1;
     }
-    
+
     &-fath {
         padding: 20px 50px;
         height: 181px;
@@ -23,9 +22,9 @@
         position: relative;
         width: 100px;
         height: 100px;
-        
+
         img {
-            position: absolute; 
+            position: absolute;
         }
 
         &-1 {
@@ -36,10 +35,7 @@
         &-2 {
             top: 30px;
             left: 29px;
-
         }
-
-
     }
 
     &-link {
