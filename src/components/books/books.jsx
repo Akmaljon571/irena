@@ -12,8 +12,8 @@ import img9 from '../../img/9.png'
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import Container from '../container/container';
 import ItemsCarousel from 'react-items-carousel';
-import './books.scss'
 import { useState } from 'react';
+import './books.scss'
 
 function Books() {
     const [activeItemIndex, setActiveItemIndex] = useState(0);

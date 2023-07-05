@@ -7,6 +7,7 @@ import Mission from "./mission/mission";
 import News from "./news/news";
 import Newsletter from "./newsletter/newsletter";
 import Books from "./books/books";
+import Youtube from "./youtube/youtube";
 
 export  {
     Alert,
@@ -17,5 +18,6 @@ export  {
     Mission,
     News,
     Newsletter,
-    Books
+    Books,
+    Youtube
 }

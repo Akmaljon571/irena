@@ -1,0 +1,109 @@
+.youtube {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 0;
+    background-color: #00203e;
+    height: 526px;
+    margin-bottom: 500px;
+    
+    &-fath {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+
+        &_left {
+            width: 874px;
+        }
+    }
+
+    &-right {
+        width: 30%;
+        margin-left: 50px;
+        height: 526px;
+        position: relative;
+
+        h2 {
+            color: #fff;
+            font-size: 25px;
+            font-weight: 800;
+            margin-top: 70px;
+        }
+
+        p {
+            font-size: 17px;
+            color: #ffffffb7;
+            margin-top: 20px;
+        }
+
+        b {
+            color: #fff;
+            display: block;
+            margin-top: 30px;
+            font-size: 15px;
+            font-weight: 800;
+        }
+
+        span {
+            color: #ffffffe0;
+            display: block;
+            font-size: 15px;
+            font-weight: 400; 
+            margin-top: 5px;
+        }
+
+        a {
+            position: absolute;
+            bottom: 70px;
+            color: #fff;
+            text-decoration: underline;
+            font-weight: 800;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transform: rotate(180deg);
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            border: none;
+            position: absolute;
+            right: -10px;
+            top: 70px;
+            border: 1px solid #aaa;
+            z-index: 1;
+            background-color: transparent;
+            cursor: pointer;
+
+            & * {
+                width: 20px !important;
+                height: 20px !important;
+                color: #fff;
+                margin-left: 8px;
+            }
+        }
+        
+        &-btn {
+            right: 30px !important;
+            transform: rotate(0deg) !important;
+        }
+    }
+
+    &-link {
+        left: 150px;
+    }
+    
+    &-icon {
+        width: 30px;
+        height: 30px;
+        left: -40px;
+        top: 120px;
+        position: absolute;
+    }
+}
