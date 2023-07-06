@@ -11,12 +11,12 @@ function Youtube() {
                 <Slider dots={false} arrows={true}>
                     <div className='youtube-fath'>
                         <div className="youtube-left">
-                            <iframe width="874" height="526" src="https://www.youtube.com/embed/KX8U-6QcpNs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                            <iframe width="874" height="526" src="https://www.youtube.com/embed/vaNBxVMlS9g" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                         <div className="youtube-right">
                             <h2>Featured video</h2>
                             <p>
-                                Time to Transform European Commitments into Actions
+                                Governments are facing a difficult task of bringing the health emergency under control while introducing major stimulus and recovery measures. The crisis has exposed deeply embedded vulnerabilities ...
                             </p>
                             <b>Francesco La Camera,</b>
                             <span>IRENA Director-General</span>
@@ -34,12 +34,12 @@ function Youtube() {
                     </div>
                     <div className='youtube-fath'>
                         <div className="youtube-left">
-                            <iframe width="874" height="526" src="https://www.youtube.com/embed/vaNBxVMlS9g" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+                            <iframe width="874" height="526" src="https://www.youtube.com/embed/KX8U-6QcpNs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
                         </div>
                         <div className="youtube-right">
                             <h2>Featured video</h2>
                             <p>
-                                Governments are facing a difficult task of bringing the health emergency under control while introducing major stimulus and recovery measures. The crisis has exposed deeply embedded vulnerabilities ...
+                                Time to Transform European Commitments into Actions
                             </p>
                             <b>Francesco La Camera,</b>
                             <span>IRENA Director-General</span>
