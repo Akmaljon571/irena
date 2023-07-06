@@ -8,6 +8,7 @@ import News from "./news/news";
 import Newsletter from "./newsletter/newsletter";
 import Books from "./books/books";
 import Youtube from "./youtube/youtube";
+import Week from "./week/week";
 
 export  {
     Alert,
@@ -19,5 +20,6 @@ export  {
     News,
     Newsletter,
     Books,
-    Youtube
+    Youtube,
+    Week
 }
